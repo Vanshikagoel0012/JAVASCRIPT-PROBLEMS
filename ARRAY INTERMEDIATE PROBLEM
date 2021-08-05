@@ -1,1 +1,24 @@
-
+var output=[];
+var count=1;
+function hellohehe()
+{
+    if(count%5==0 && count%3==0 )
+    {
+         output.push("hellohehe");
+    }
+    if(count%3==0)
+    {
+        output.push("hello");
+    }
+    else if(count%5==0)
+    {
+        output.push("hehe");
+    }
+    else
+    {
+         output.push(count);       
+    }
+   count++;
+   console.log(output); 
+}
+hellohehe();
