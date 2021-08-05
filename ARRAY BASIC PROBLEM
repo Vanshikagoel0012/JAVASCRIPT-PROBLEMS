@@ -1,0 +1,10 @@
+var r=prompt("what is your name");
+var f=["ria","van","shika"];
+if(f.includes(r))
+{
+    alert("welcome!!");
+}
+else
+{
+    alert("better luck next time");
+}
