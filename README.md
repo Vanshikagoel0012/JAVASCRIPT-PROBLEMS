@@ -9,3 +9,6 @@ Check whether you are invited to a party or not.
 
 #3
 print random names that will perform any action according to problem statement,here i used for buying lunch.
+
+#4
+printing fibonacci series starting from 0
