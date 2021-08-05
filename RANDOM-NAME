@@ -1,0 +1,10 @@
+function whosPaying(names) {
+
+var names=["hans","shika","Jai","nick","van"];
+var r=names.length;
+var n=Math.floor(Math.random()*r);
+var d=names[n];
+return d+" going to buy lunch";
+}
+
+whosPaying();
