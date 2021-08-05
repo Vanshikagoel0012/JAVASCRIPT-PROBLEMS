@@ -2,6 +2,8 @@ var output=[];
 var count=1;
 function hellohehe()
 {
+while(count<=100)
+{
     if(count%5==0 && count%3==0 )
     {
          output.push("hellohehe");
@@ -20,5 +22,6 @@ function hellohehe()
     }
    count++;
    console.log(output); 
+}
 }
 hellohehe();
