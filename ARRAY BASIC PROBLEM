@@ -2,9 +2,9 @@ var r=prompt("what is your name");
 var f=["ria","van","shika"];
 if(f.includes(r))
 {
-    alert("welcome!!");
+    alert("WELCOME!!");
 }
 else
 {
-    alert("better luck next time");
+    alert("BETTER LUCK NEXT TIME");
 }
